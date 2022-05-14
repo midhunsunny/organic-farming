@@ -1,0 +1,115 @@
+<html>
+<head>
+</head>
+<title> Organic Farming </title>
+<link rel="stylesheet" href="style.css">
+<link rel="styleshee"  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+<meta name ="viewport" content="width=device-width,intial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&display=swap" rel="stylesheet">
+
+<body>
+<section id="banner">
+    <img src="images/logo.png" class="logo">
+    <div class="banner-text">
+        <h1>Organic Farming</h1>
+        <p> Lets you eat Food Better.</p>
+  <div class="banner-btn">
+<a herf="#"><span></span>Find Out</a>
+<a herf="#"><span></span>Read More</a>
+  </div>
+    </div>
+</section>
+<div id="sideNav">
+<nav>
+    <ul>
+        <li><a herf="#">HOME</a></li>
+        <li><a herf="#">FEATURES</a></li>
+        <li><a herf="#">SERVICES</a></li>
+        <li><a herf="#">TESTIMONALS</a></li>
+        <li><a herf="#">CONTACT US</a></li>
+      </ul>    
+    </nav>
+    </div>
+<div id="menuBtn">
+    <img src="images/menu.png" id="menu">
+</div>
+
+
+<!--Features-->
+<secction id="feature">
+    <div class="title-text">
+        <p>FEATURES</p>
+        <h1>Why you choose us</h1>
+    </div>
+    <div class="feature-box">
+        <div class="features">
+            <h1>Experienced Organic Farmers</h1>
+          <div class="features-desc">
+              <div class="feature-icon">
+                <i class="fa fa-shield"></i>
+
+            </div>
+              <div class="feature-text">
+                  <p>
+                    We believe learning is a continuous and ongoing process and we have Experienced farmeres with experience of more then 12 years.
+                  </p>
+              </div>
+           </div>
+           </div>
+           <h1>Importance Of Organic Farming</h1>
+          <div class="features-desc">
+              <div class="feature-icon">
+                <i class="fa fa-check-square-o"></i>
+
+            </div>
+              <div class="feature-text">
+                  <p>
+                    We believe learning is a continuous and ongoing process and we have Experienced farmeres with experience of more then 12 years.
+                  </p>
+              </div>
+           </div>
+           <h1>Price Of Organic Items </h1>
+          <div class="features-desc">
+              <div class="feature-icon">
+                <i class="fa fa-inr"></i>
+
+            </div>
+              <div class="feature-text">
+                  <p>
+                    We believe learning is a continuous and ongoing process and we have Experienced farmeres with experience of more then 12 years.
+                  </p>
+              </div>
+           </div>
+       </div>
+        <div class="features-img">   
+        <img src="images/organic.jpg">    
+        </div>
+    </div>
+</section>
+
+
+
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right="-250px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right=="-250px"){
+            sideNav.style.right="0";
+        menu.scr = "images/close.png";
+        }
+        else{
+            sideNav.style.right="-250px";
+            menu.scr = "images/menu.png";
+        }
+
+    }
+</script>
+
+
+</body>
+</html>
